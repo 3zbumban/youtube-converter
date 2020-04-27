@@ -1,4 +1,5 @@
 from os import getcwd, system
+from sys import exit
 from pathlib import Path
 import subprocess
 
@@ -31,4 +32,4 @@ except Exception as e:
     CODE = -1
 finally:
     exit(CODE)
-    system("PAUSE")
+system("PAUSE")
